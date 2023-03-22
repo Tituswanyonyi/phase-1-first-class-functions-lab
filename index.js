@@ -1,11 +1,11 @@
 // Code your solution in this file!
 const  returnFirstTwoDrivers = function anonymousFunction([]){
-return (['Wanyonyi', 'Omuse']);
+return (['Antonia', 'Nuru']);
 
 }
 
 const  returnLastTwoDrivers = function anonymousFunction([]){
-    return (['Wilson', 'stella']);
+    return (['Amari', 'Mo']);
 
 }
 const selectingDrivers =[returnFirstTwoDrivers,returnLastTwoDrivers];
@@ -19,5 +19,5 @@ const fareDoubler = createFareMultiplier(2);
 const fareTripler = createFareMultiplier(3);
 
 const selectDifferentDrivers = function (arrayOfDrivers, driversToReturn) {
-    return driversToReturn(arrayOfDrivers);
+    return driversToReturn(arrayOfDrivers); 
   };
